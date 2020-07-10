@@ -18,7 +18,8 @@ public class Intercom implements Closeable {
     /**
      * Creates intercom instance for client-side
      *
-     * @throws IOException If an I/O error occurs
+     * @param ipAddress server IP address
+     * @param port server port
      */
     public Intercom(String ipAddress, int port) {
         try {
